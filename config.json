@@ -1,0 +1,17 @@
+{
+  "base_config": {
+    "base_project_dir": "C:\\Fileshare",
+    "clamscan_location": "C:\\Program Files\\ClamAV\\clamscan.exe"
+  },
+  "projects": [
+    {
+    "name": "Project1",
+    "dir": "project1"
+    },
+    {
+      "name": "Project2",
+      "dir": "project2"
+    }
+  ]
+}
+
