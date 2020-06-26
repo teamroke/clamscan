@@ -25,5 +25,9 @@ class ConfigLoader:
             print(project.name)
             print(listdir(project.directory))
 
+    def list_project_dirs(self):
+        for project in self.projects:
+            yield project.directory
+
 
 
