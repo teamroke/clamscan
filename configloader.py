@@ -3,6 +3,12 @@ import json
 from projects import Project
 
 
+'''
+    This will load the config.json file and read in the values.
+    It will only read on load so any changes will need a restart to be picked up.
+'''
+
+
 class ConfigLoader:
 
     def __init__(self):
