@@ -3,7 +3,7 @@ from clamhandler import ClamHandler
 from configloader import ConfigLoader
 
 config = ConfigLoader()
-event_handler = ClamHandler()
+event_handler = ClamHandler(config.scanner)
 observer = Observer()
 observers = []
 for project_dir in config.list_project_dirs():
